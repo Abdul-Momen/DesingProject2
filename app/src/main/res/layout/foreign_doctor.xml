@@ -24,15 +24,15 @@
                     android:layout_height="30dp"
                     android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
-                    android:contentDescription="@string/todo"
-                    android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+                    android:src="@drawable/ic_baseline_keyboard_backspace_24"
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20sp"
                     android:includeFontPadding="true"
-                    android:text="Bangladesh Doctor"
+                    android:text="Foreign Doctor"
                     android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -143,7 +143,6 @@
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
-
     <androidx.core.widget.NestedScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -251,10 +250,10 @@
 
                 <EditText
 
+                    android:drawableLeft="@drawable/clendericon"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/edit_border"
-                    android:drawableLeft="@drawable/clendericon"
                     android:text=" 17/02/1998" />
 
 
@@ -270,15 +269,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:text="National ID Number" />
+                    android:text="Country " />
 
                 <EditText
 
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
+                    android:drawableLeft="@drawable/worldicon"
                     android:background="@drawable/edit_border"
-                    android:drawableLeft="@drawable/nid"
-                    android:text=" 19953614447000001" />
+                    android:text=" bangalore" />
 
 
             </LinearLayout>
@@ -327,41 +326,6 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Doctor Registration" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:layout_weight="1"
-                        android:text="@string/bmdc_no"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <Switch
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1" />
-
-                </LinearLayout>
-
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -421,135 +385,6 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_marginLeft="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_weight="1"
-                    android:text="@string/bpa"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-                <Switch
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Registration/Roll Number" />
-
-                <EditText
-
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="@drawable/edit_border"
-                    android:text="1847565" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="attachment" />
-
-                <LinearLayout
-                    android:gravity="center"
-
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:background="@drawable/edit_border"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_gravity="center"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/cameraicon" />
-
-                        <TextView
-                            android:gravity="center"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Take pictures"/>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_gravity="center"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:src="@drawable/uploadimg" />
-
-                        <TextView
-                            android:gravity="center"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="from gellery"/>
-                    </LinearLayout>
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_marginLeft="20dp"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_weight="1"
-                    android:text="@string/others"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-                <Switch
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -582,6 +417,5 @@
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
-
 
 </LinearLayout>

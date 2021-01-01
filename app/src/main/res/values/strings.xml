@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">DesingProject2</string>
+    <string name="others">others</string>
+    <string name="bpa">BPA</string>
+    <string name="refarance_id">Refarance ID</string>
+    <string name="bmdc_no">BMDC No</string>
+    <string name="medical">Medical</string>
+    <string name="_054541">054541</string>
+    <string name="dental">Dental</string>
+    <string name="todo">TODO</string>
 </resources>
